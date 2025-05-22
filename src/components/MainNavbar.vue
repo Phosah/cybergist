@@ -1,8 +1,12 @@
 <template>
-  <nav class="sticky top-0 shadow-md z-30 flex items-center justify-between px-6 py-10 bg-white">
-    <p class="font-bold text-lg text-red-300 font-garamond">CyberGist</p>
+  <nav
+    class="sticky top-0 shadow-md z-30 flex items-center justify-between px-6 py-10 bg-white z-100"
+  >
+    <RouterLink to="/"
+      ><p class="font-bold text-lg text-red-300 font-garamond">CyberGist</p></RouterLink
+    >
 
-    <div class="flex gap-6">
+    <div class="hidden sm:flex gap-6">
       <RouterLink
         to="/"
         class="border-b-2 border-transparent hover:border-yellow-500 hover:text-yellow-500 hover:font-medium transition-all"

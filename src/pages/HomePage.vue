@@ -9,9 +9,11 @@ import PuzzleIcon from '@/components/icons/PuzzleIcon.vue'
   <MainHeader />
 
   <section class="max-w-7xl mx-auto my-20 mb-48">
-    <p class="mb-4 text-3xl font-garamond">Data Center Infrastructure Management</p>
-    <div class="grid grid-cols-3 gap-8 text-gray-700 font-semibold">
-      <ul class="relative p-4 bg-red-300 rounded-lg">
+    <p class="mb-4 text-xl md:text-3xl font-garamond font-semibold">
+      Data Center Infrastructure Management
+    </p>
+    <div class="grid md:grid-cols-3 gap-8 text-gray-700 font-semibold">
+      <!-- <ul class="relative p-4 bg-red-300 rounded-lg">
         <div class="absolute inset-0 bg-layer rounded-lg"></div>
         <ArrowIcon class="w-24 h-24 mb-8 text-black" />
 
@@ -21,12 +23,25 @@ import PuzzleIcon from '@/components/icons/PuzzleIcon.vue'
         <li class="mb-3 relative z-50">Outsource Services</li>
         <li class="mb-3 relative z-50">IT Helpdesk Support</li>
         <li class="mb-3 relative z-50">24\7 Response Center</li>
+      </ul> -->
+
+      <ul class="relative p-4 bg-red-300 rounded-lg group">
+        <div class="absolute inset-0 bg-layer rounded-lg"></div>
+        <div class="relative z-20">
+          <ArrowIcon class="w-24 h-24 mb-8 text-black" />
+          <li class="mb-3">IT Managed Services</li>
+          <li class="mb-3">Data Center Support / Network Management Services</li>
+          <li class="mb-3">IT Project Management Services</li>
+          <li class="mb-3">Outsource Services</li>
+          <li class="mb-3">IT Helpdesk Support</li>
+          <li class="mb-3">24\7 Response Center</li>
+        </div>
       </ul>
 
       <ul class="relative p-4 bg-yellow-500 rounded-lg group">
         <div class="absolute inset-0 bg-layer rounded-lg"></div>
-        <div class="relative z-50">
-          <SettingsIcon class="w-24 h-24 mb-8 text-white" />
+        <div class="relative z-20">
+          <SettingsIcon class="w-24 h-24 mb-8 text-white animate-spin-slow" />
           <li class="mb-3">Managed Services</li>
           <li class="mb-3">OEM Platform & Network Services</li>
           <li class="mb-3">Data Center Solutions</li>
@@ -38,7 +53,7 @@ import PuzzleIcon from '@/components/icons/PuzzleIcon.vue'
 
       <ul class="relative p-4 bg-blue-400 rounded-lg group">
         <div class="absolute inset-0 bg-layer rounded-lg"></div>
-        <div class="relative z-50">
+        <div class="relative z-20">
           <PuzzleIcon class="w-24 h-24 mb-8 text-black" />
           <li class="mb-3">OEM Disk & Tape</li>
           <li class="mb-3">IT Consulting Services</li>
@@ -56,5 +71,18 @@ import PuzzleIcon from '@/components/icons/PuzzleIcon.vue'
 .bg-layer {
   background-image: url('@/assets/layer.png');
   background-size: cover;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
 }
 </style>

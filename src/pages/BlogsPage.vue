@@ -5,9 +5,17 @@
     <section class="grid grid-cols-1 gap-6 my-12">
       <RouterLink
         to="/blogs/dcim"
-        class="flex items-center gap-3 px-3 pb-3 border-b border-yellow-500 hover:bg-gray-50 transition-colors"
+        class="md:flex items-center gap-3 pb-3 border-b border-yellow-500 hover:bg-gray-50 transition-colors"
       >
-        <div><img src="@/assets/ai-plug.jpeg" width="250" height="250" alt="DCIM" /></div>
+        <div>
+          <img
+            class="w-full md:w-64"
+            src="@/assets/ai-plug.jpeg"
+            width="250"
+            height="250"
+            alt="DCIM"
+          />
+        </div>
         <div class="flex-grow flex-col justify-between">
           <h2
             class="mb-10 text-xl font-semibold font-garamond hover:border-yellow-500 hover:text-yellow-500 hover:font-medium transition-all"
@@ -23,9 +31,17 @@
 
       <RouterLink
         to="/blogs/data-strategy"
-        class="flex items-center gap-3 px-3 pb-3 border-b border-yellow-500 hover:bg-gray-50 transition-colors"
+        class="md:flex items-center gap-3 pb-3 border-b border-yellow-500 hover:bg-gray-50 transition-colors"
       >
-        <div><img src="@/assets/ai-plug.jpeg" width="250" height="250" alt="Data Strategy" /></div>
+        <div>
+          <img
+            src="@/assets/ai-plug.jpeg"
+            class="w-full md:w-64"
+            width="250"
+            height="250"
+            alt="Data Strategy"
+          />
+        </div>
         <div class="flex-grow flex-col justify-between">
           <h2
             class="mb-10 text-xl font-semibold font-garamond hover:border-yellow-500 hover:text-yellow-500 hover:font-medium transition-all"
@@ -41,9 +57,17 @@
 
       <RouterLink
         to="/blogs/cybersecurity"
-        class="flex items-center gap-3 px-3 pb-3 border-b border-yellow-500 hover:bg-gray-50 transition-colors"
+        class="md:flex items-center gap-3 pb-3 border-b border-yellow-500 hover:bg-gray-50 transition-colors"
       >
-        <div><img src="@/assets/ai-plug.jpeg" width="250" height="250" alt="Cybersecurity" /></div>
+        <div>
+          <img
+            src="@/assets/ai-plug.jpeg"
+            class="w-full md:w-64"
+            width="250"
+            height="250"
+            alt="Cybersecurity"
+          />
+        </div>
         <div class="flex-grow flex-col justify-between">
           <h2
             class="mb-10 text-xl font-semibold font-garamond hover:border-yellow-500 hover:text-yellow-500 hover:font-medium transition-all"

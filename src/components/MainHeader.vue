@@ -6,12 +6,12 @@
       class="absolute inset-0 h-[90vh] py-2 flex items-center justify-center text-center z-10"
     >
       <div class="max-w-7xl mx-auto relative z-50">
-        <h1 class="mb-12 text-6xl text-yellow-600 font-medium font-garamond">
+        <h1 class="mb-12 text-4xl md:text-6xl text-yellow-600 font-medium font-garamond">
           Welcome to Cyber Gist
         </h1>
 
         <div>
-          <p class="mb-6 text-black text-lg font-medium tracking-wide">
+          <p class="mb-6 text-black md:text-lg font-medium tracking-wide">
             Our Vision: To empower organizations with comprehensive, secure, and innovative data
             management solutions by seamlessly integrating Data Center Infrastructure Management
             (DCIM), data strategy, and cybersecurity. We envision a future where businesses are
