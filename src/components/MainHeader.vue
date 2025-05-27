@@ -6,8 +6,10 @@
       class="absolute inset-0 h-[90vh] py-2 flex items-center justify-center text-center z-10"
     >
       <div class="max-w-7xl mx-auto relative z-50">
-        <h1 class="mb-12 text-4xl md:text-6xl text-yellow-600 font-medium font-garamond">
-          Welcome to Cyber Gist
+        <h1
+          class="mb-12 text-4xl md:text-6xl font-medium font-garamond bg-gradient-to-r from-yellow-500 to-blue-700 bg-clip-text text-transparent"
+        >
+          Welcome to CyberGist
         </h1>
 
         <div>

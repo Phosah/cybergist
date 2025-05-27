@@ -1,6 +1,10 @@
 <template>
   <div class="max-w-7xl mx-auto font-nunito text-gray-600">
-    <h1 class="my-12 text-4xl text-red-600 font-garamond font-semibold">Cyber Gist</h1>
+    <h1
+      class="my-12 text-4xl font-garamond font-semibold bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent"
+    >
+      Cyber Gist
+    </h1>
     <div>
       <section class="mb-8">
         <p class="mb-8">
@@ -87,7 +91,7 @@
           you every step of the way.
         </p>
 
-        <p class="mb-4">Let’s build a secure, data-driven future together.</p>
+        <p class="mb-4">Let's build a secure, data-driven future together.</p>
       </section>
 
       <section class="my-20">
@@ -104,14 +108,14 @@
         </p>
 
         <p>
-          Khalid is highly skilled at providing good customer service, and he’s able to reassure
-          them that every effort will be made to solve their issue quickly and effectively. He’s
+          Khalid is highly skilled at providing good customer service, and he's able to reassure
+          them that every effort will be made to solve their issue quickly and effectively. He's
           qualified and experienced to do on-site evaluations to ascertain the precise demands of
-          the clients and to install new systems. Khalid’s able to organize teams, assign
+          the clients and to install new systems. Khalid's able to organize teams, assign
           responsibilities, and oversee the timely and cost-effective completion of projects.
-          Khalid’s a skilled troubleshooter with the capacity to identify the root of the issue and
+          Khalid's a skilled troubleshooter with the capacity to identify the root of the issue and
           a workable solution to restore the system's full functionality. Khalid constantly uphold a
-          strict work ethic and he’s committed to offering the highest caliber of service. Khalid
+          strict work ethic and he's committed to offering the highest caliber of service. Khalid
           takes on issues head-on and keep up with all the most recent technology as it becomes
           available. He has the knowledge and expertise to offer your business the best engineering
           solutions. Khalid possess 20+ years of technical/management experience in information

@@ -13,18 +13,6 @@ import PuzzleIcon from '@/components/icons/PuzzleIcon.vue'
       Data Center Infrastructure Management
     </p>
     <div class="grid md:grid-cols-3 gap-8 text-gray-700 font-semibold">
-      <!-- <ul class="relative p-4 bg-red-300 rounded-lg">
-        <div class="absolute inset-0 bg-layer rounded-lg"></div>
-        <ArrowIcon class="w-24 h-24 mb-8 text-black" />
-
-        <li class="mb-3 relative z-50">IT Managed Services</li>
-        <li class="mb-3 relative z-50">Data Center Support / Network Management Services</li>
-        <li class="mb-3 relative z-50">IT Project Management Services</li>
-        <li class="mb-3 relative z-50">Outsource Services</li>
-        <li class="mb-3 relative z-50">IT Helpdesk Support</li>
-        <li class="mb-3 relative z-50">24\7 Response Center</li>
-      </ul> -->
-
       <ul class="relative p-4 bg-red-300 rounded-lg group">
         <div class="absolute inset-0 bg-layer rounded-lg"></div>
         <div class="relative z-20">
