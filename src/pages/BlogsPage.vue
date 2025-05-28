@@ -1,6 +1,10 @@
 <template>
   <div class="max-w-7xl mx-auto">
-    <div class="my-12 text-4xl text-red-600 font-garamond font-semibold">Blogs</div>
+    <div
+      class="my-12 text-4xl font-garamond font-semibold bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent"
+    >
+      Blogs
+    </div>
 
     <section class="grid grid-cols-1 gap-6 my-12">
       <RouterLink
@@ -18,7 +22,7 @@
         </div>
         <div class="flex-grow flex-col justify-between">
           <h2
-            class="mb-10 text-xl font-semibold font-garamond hover:border-yellow-500 hover:text-yellow-500 hover:font-medium transition-all"
+            class="mb-10 text-xl font-semibold font-garamond transition-all hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent"
           >
             DCIM
           </h2>
@@ -44,7 +48,7 @@
         </div>
         <div class="flex-grow flex-col justify-between">
           <h2
-            class="mb-10 text-xl font-semibold font-garamond hover:border-yellow-500 hover:text-yellow-500 hover:font-medium transition-all"
+            class="mb-10 text-xl font-semibold font-garamond transition-all hover:font-medium hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent"
           >
             Data Strategy
           </h2>
@@ -70,7 +74,7 @@
         </div>
         <div class="flex-grow flex-col justify-between">
           <h2
-            class="mb-10 text-xl font-semibold font-garamond hover:border-yellow-500 hover:text-yellow-500 hover:font-medium transition-all"
+            class="mb-10 text-xl font-semibold font-garamond transition-all hover:font-medium hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent"
           >
             CYBERSECURITY
           </h2>

@@ -3,6 +3,7 @@ import MainHeader from '@/components/MainHeader.vue'
 import SettingsIcon from '@/components/icons/SettingsIcon.vue'
 import ArrowIcon from '@/components/icons/ArrowIcon.vue'
 import PuzzleIcon from '@/components/icons/PuzzleIcon.vue'
+import AboutCompany from '@/components/AboutCompany.vue'
 </script>
 
 <template>
@@ -53,6 +54,8 @@ import PuzzleIcon from '@/components/icons/PuzzleIcon.vue'
       </ul>
     </div>
   </section>
+
+  <AboutCompany />
 </template>
 
 <style>

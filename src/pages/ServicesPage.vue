@@ -1,6 +1,10 @@
 <template>
   <div class="max-w-7xl mx-auto">
-    <div class="my-12 text-4xl text-red-600 font-garamond font-semibold">Our Services</div>
+    <div
+      class="my-12 text-4xl font-garamond font-semibold bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent"
+    >
+      Our Services
+    </div>
     <div class="mb-6">
       <p class="font-bold text-gray-900">Our Services</p>
       <p class="mb-6">

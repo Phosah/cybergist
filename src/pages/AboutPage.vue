@@ -3,9 +3,10 @@
     <h1
       class="my-12 text-4xl font-garamond font-semibold bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent"
     >
-      Cyber Gist
+      About Us
     </h1>
-    <div>
+
+    <!-- <div>
       <section class="mb-8">
         <p class="mb-8">
           At Cybergist, we are dedicated to transforming the way businesses manage, protect, and
@@ -146,7 +147,76 @@
           experience also include Active Directory (AD), SCCM, MaaS360, and Data Center work.
         </p>
       </section>
-    </div>
+    </div> -->
+
+    <section class="my-20 flex items-center gap-12">
+      <div class="w-[20rem] h-[20rem] shrink-0">
+        <img
+          src="../assets/hero-bg.jpg"
+          alt="Founder image"
+          class="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      <div>
+        <p class="text-3xl font-semibold font-garamond">Cassius Lawson</p>
+        <p class="mb-6 text-gray-400">Founder</p>
+        <p>
+          Cassius Lawson is a Cybersecurity Technician with experiences as a Certificate Authority
+          (CA) of the Secure Sockets Layer (SSL) for the PKI System (Public Key Infrastructure). His
+          experience also include Active Directory (AD), SCCM, MaaS360, and Data Center work.
+        </p>
+      </div>
+    </section>
+
+    <section class="my-20 flex items-center gap-12">
+      <div class="w-[20rem] h-[20rem] shrink-0">
+        <img
+          src="../assets/hero-bg.jpg"
+          alt="Founder image"
+          class="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      <div>
+        <p class="text-3xl font-semibold font-garamond">Khalid</p>
+        <p class="mb-6 text-gray-400">Founder</p>
+        <p>
+          Khalid Safee is qualified to manage, plan, and put into place IT network infrastructure,
+          optimization & footprint, datacenter rack refresh and systems integration, development,
+          maintenance, and services management. Khalid has experience dealing with IT infrastructure
+          in the datacenter, such as optimization and footprint and decommissioning IT equipment in
+          a DC (extensive usage of DCIM, CMDB, ITSM, ITIL, the Federal Office for Information
+          Security, common criteria (CC), protection profile, and security target (ST). Jira
+          Confluence, ServiceNow, Remedy, Carla, and FNT Asset Management software) and working with
+          the BMC Team from scratch, and Khalid is familiar with networks and systems from companies
+          like Cisco, HP, SAN, Oracle, Dell, and EMC.
+        </p>
+      </div>
+    </section>
+
+    <section class="my-20 flex items-center gap-12">
+      <div class="w-[20rem] h-[20rem] shrink-0">
+        <img
+          src="../assets/hero-bg.jpg"
+          alt="Founder image"
+          class="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      <div>
+        <p class="text-3xl font-semibold font-garamond">Cassius Lawson</p>
+        <p class="mb-6 text-gray-400">Founder</p>
+        <p>
+          Khalid Safee is qualified to manage, plan, and put into place IT network infrastructure,
+          optimization & footprint, datacenter rack refresh and systems integration, development,
+          maintenance, and services management. Khalid has experience dealing with IT infrastructure
+          in the datacenter, such as optimization and footprint and decommissioning IT equipment in
+          a DC (extensive usage of DCIM, CMDB, ITSM, ITIL, the Federal Office for Information
+          Security, common criteria (CC), protection profile, and security target (ST). Jira
+          Confluence, ServiceNow, Remedy, Carla, and FNT Asset Management software) and working with
+          the BMC Team from scratch, and Khalid is familiar with networks and systems from companies
+          like Cisco, HP, SAN, Oracle, Dell, and EMC.
+        </p>
+      </div>
+    </section>
   </div>
 </template>
 

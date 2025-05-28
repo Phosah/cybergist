@@ -39,7 +39,7 @@
         to="/certifications"
         class="border-b-2 border-transparent hover:border-yellow-500 hover:text-yellow-500 hover:font-medium transition-all"
         active-class=" bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent font-semibold"
-        >Affliates</RouterLink
+        >Affiliates</RouterLink
       >
       <RouterLink
         to="/contact"
