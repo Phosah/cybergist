@@ -5,10 +5,6 @@
     >
       Contact Us
     </div>
-
-    <div class="mb-6">
-      <p class="font-bold text-gray-900">Contact Us</p>
-    </div>
   </div>
 
   <form action="{FORM_ENDPOINT}" method="POST" class="max-w-[120rem] mx-auto flex justify-center">
