@@ -1,6 +1,6 @@
 <template>
   <section
-    class="my-20 py-20 bg-gradient-to-r from-yellow-500 to-blue-700 bg-clip-text text-transparent text-white"
+    class="my-20 py-20 bg-gradient-to-r from-yellow-500 to-blue-700 bg-clip-text text-transparent"
   >
     <div class="max-w-3xl mx-auto flex flex-col gap-8">
       <div>
