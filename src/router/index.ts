@@ -59,6 +59,11 @@ const router = createRouter({
       name: 'contact',
       component: ContactPage,
     },
+    {
+      path: '/affiliates',
+      name: 'affiliates',
+      component: () => import('../pages/AffiliatesPage.vue'),
+    },
   ],
   scrollBehavior() {
     return { top: 0, left: 0 }

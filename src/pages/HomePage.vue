@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import MainHeader from '@/components/MainHeader.vue'
 import SettingsIcon from '@/components/icons/SettingsIcon.vue'
-import ArrowIcon from '@/components/icons/ArrowIcon.vue'
-import PuzzleIcon from '@/components/icons/PuzzleIcon.vue'
+import { Server, Network } from 'lucide-vue-next'
 import AboutCompany from '@/components/AboutCompany.vue'
 </script>
 
@@ -14,10 +13,12 @@ import AboutCompany from '@/components/AboutCompany.vue'
       Data Center Infrastructure Management
     </p>
     <div class="grid md:grid-cols-3 gap-8 text-gray-700 font-semibold">
-      <ul class="relative p-4 bg-red-300 rounded-lg group">
-        <div class="absolute inset-0 bg-layer rounded-lg"></div>
+      <ul
+        class="relative p-6 bg-red-300 rounded-xl group hover:shadow-xl transition-all duration-300"
+      >
+        <div class="absolute inset-0 bg-layer rounded-xl"></div>
         <div class="relative z-20">
-          <ArrowIcon class="w-24 h-24 mb-8 text-black" />
+          <Server class="w-24 h-24 mb-8 text-black" />
           <li class="mb-3">IT Managed Services</li>
           <li class="mb-3">Data Center Support / Network Management Services</li>
           <li class="mb-3">IT Project Management Services</li>
@@ -27,8 +28,10 @@ import AboutCompany from '@/components/AboutCompany.vue'
         </div>
       </ul>
 
-      <ul class="relative p-4 bg-yellow-500 rounded-lg group">
-        <div class="absolute inset-0 bg-layer rounded-lg"></div>
+      <ul
+        class="relative p-6 bg-yellow-500 rounded-xl group hover:shadow-xl transition-all duration-300"
+      >
+        <div class="absolute inset-0 bg-layer rounded-xl"></div>
         <div class="relative z-20">
           <SettingsIcon class="w-24 h-24 mb-8 text-white animate-spin-slow" />
           <li class="mb-3">Managed Services</li>
@@ -40,10 +43,12 @@ import AboutCompany from '@/components/AboutCompany.vue'
         </div>
       </ul>
 
-      <ul class="relative p-4 bg-blue-400 rounded-lg group">
-        <div class="absolute inset-0 bg-layer rounded-lg"></div>
+      <ul
+        class="relative p-6 bg-blue-400 rounded-xl group hover:shadow-xl transition-all duration-300"
+      >
+        <div class="absolute inset-0 bg-layer rounded-xl"></div>
         <div class="relative z-20">
-          <PuzzleIcon class="w-24 h-24 mb-8 text-black" />
+          <Network class="w-24 h-24 mb-8 text-black" />
           <li class="mb-3">OEM Disk & Tape</li>
           <li class="mb-3">IT Consulting Services</li>
           <li class="mb-3">IT Support Services</li>
