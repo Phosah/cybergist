@@ -1,13 +1,7 @@
 <template>
   <div class="max-w-7xl mx-auto">
-    <div
-      class="my-12 text-4xl font-garamond font-semibold bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent"
-    >
-      Contact Us
-    </div>
-
     <!-- Contact Form Section -->
-    <section class="py-20 bg-white">
+    <section class="my-12 bg-white">
       <div class="max-w-7xl mx-auto px-4">
         <div class="grid md:grid-cols-2 gap-12">
           <!-- Contact Information -->
