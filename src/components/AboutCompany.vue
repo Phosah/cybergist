@@ -49,7 +49,7 @@
       </div>
 
       <div>
-        <p class="text-gray-600 md:text-xl">
+        <p class="text-gray-600 text-xl">
           Our experienced leadership team brings together decades of expertise in data management,
           cybersecurity, and enterprise technology solutions.
         </p>

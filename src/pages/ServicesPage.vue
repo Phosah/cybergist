@@ -7,8 +7,8 @@
     </div>
 
     <!-- Main Services -->
-    <section class="py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-4">
+    <section class="py-10 md:py-20 bg-white">
+      <div class="max-w-7xl mx-auto">
         <div class="space-y-16">
           <div
             v-for="(service, index) in mainServices"

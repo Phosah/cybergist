@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl mx-auto font-nunito px-4">
+  <div class="max-w-7xl mx-auto font-nunito">
     <div class="my-12 text-center">
       <h1
         class="text-4xl font-garamond font-semibold bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent"
