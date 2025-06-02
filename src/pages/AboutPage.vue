@@ -73,7 +73,7 @@
             </div>
             <h3 class="text-xl font-semibold text-gray-900 mb-2">Excellence</h3>
             <p
-              class="text-gray-600 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent"
+              class="text-gray-600 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent hover:font-medium"
             >
               We strive for excellence in every aspect of our work, delivering the highest quality
               solutions to our clients.
@@ -88,7 +88,7 @@
             </div>
             <h3 class="text-xl font-semibold text-gray-900 mb-2">Integrity</h3>
             <p
-              class="text-gray-600 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent"
+              class="text-gray-600 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent hover:font-medium"
             >
               We conduct our business with honesty, transparency, and a strong commitment to ethical
               practices.
@@ -103,7 +103,7 @@
             </div>
             <h3 class="text-xl font-semibold text-gray-900 mb-2">Innovation</h3>
             <p
-              class="text-gray-600 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent"
+              class="text-gray-600 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent hover:font-medium"
             >
               We embrace innovation and continuously seek new ways to improve our services and
               solutions.
