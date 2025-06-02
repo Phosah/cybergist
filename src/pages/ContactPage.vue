@@ -140,8 +140,7 @@
           </p>
         </div>
 
-        <div class="relative">
-          <div class="absolute inset-0 bg-layer opacity-10 rounded-lg"></div>
+        <div class="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-xl">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104097.825191!2d9.097431!3d48.7758459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799db1c5941a695%3A0x97469e383ded480f!2sStuttgart%2C%20Germany!5e0!3m2!1sen!2s!4v1710861234567!5m2!1sen!2s"
             width="100%"
