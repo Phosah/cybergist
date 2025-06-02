@@ -1,11 +1,4 @@
 <template>
-  <!-- <footer
-    class="relative mt-24 pt-48 pb-4 px-3 bg-gradient-to-r from-blue-700 to-blue-900 text-center text-white font-garamond"
-  >
-    <div class="absolute inset-0 rounded-lg"></div>
-    Copyright © 2025 Cybergist. All rights reserved.
-  </footer> -->
-
   <footer class="mt-20 bg-gray-900 text-gray-400">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -85,12 +78,6 @@
                 >Services</Link
               >
             </li>
-
-            <!-- <li>
-              <Link to="/affiliates" class="text-gray-400 hover:text-white transition-colors"
-                >Affiliates</Link
-              >
-            </li> -->
           </ul>
         </div>
 
@@ -129,3 +116,7 @@
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+import { Mail, Phone, MapPin } from 'lucide-vue-next'
+</script>

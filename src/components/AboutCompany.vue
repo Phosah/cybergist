@@ -37,7 +37,7 @@
     </div>
   </section>
 
-  <section class="my-20 py-20 bg-gray-50">
+  <section class="my-20 py-20 px-3 bg-gray-50">
     <div class="max-w-3xl mx-auto flex flex-col gap-8 text-center">
       <div>
         <h3 class="mb-2 text-sm font-semibold text-blue-600">Team</h3>
@@ -49,7 +49,7 @@
       </div>
 
       <div>
-        <p class="text-gray-600">
+        <p class="text-gray-600 md:text-xl">
           Our experienced leadership team brings together decades of expertise in data management,
           cybersecurity, and enterprise technology solutions.
         </p>
@@ -91,7 +91,7 @@
     <div class="flex justify-center mt-12">
       <RouterLink to="/about">
         <div
-          class="inline-block p-3 text-center bg-yellow-400 text-white rounded-lg hover:bg-yellow-500 transition-colors cursor-pointer"
+          class="inline-block px-8 py-4 bg-yellow-400 text-white rounded-lg hover:bg-yellow-500 transition-colors cursor-pointer"
         >
           View Team
         </div>

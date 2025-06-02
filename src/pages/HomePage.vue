@@ -8,9 +8,13 @@ import AboutCompany from '@/components/AboutCompany.vue'
 <template>
   <MainHeader />
 
-  <section class="max-w-7xl mx-auto my-20 mb-48">
-    <p class="mb-4 text-xl md:text-3xl font-garamond font-semibold">
-      Data Center Infrastructure Management
+  <section class="max-w-7xl mx-auto my-24">
+    <p class="mb-4 text-3xl md:text-4xl font-garamond font-semibold">
+      <span
+        class="bg-gradient-to-r from-yellow-500 to-blue-900 bg-clip-text text-transparent md:text-black"
+        >Data Center Infrastructure</span
+      >
+      <span class="text-black"> Management</span>
     </p>
     <div class="grid md:grid-cols-3 gap-8 text-gray-700 font-semibold">
       <ul

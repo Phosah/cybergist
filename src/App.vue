@@ -33,7 +33,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col font-nunito">
+  <div class="min-h-screen flex flex-col font-nunito text-gray-600">
     <!-- Loading Overlay -->
     <div v-if="isLoading" class="fixed inset-0 bg-white z-50 flex items-center justify-center">
       <div class="text-center">

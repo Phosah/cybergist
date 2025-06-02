@@ -6,7 +6,7 @@
       >
         Latest Insights
       </h1>
-      <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+      <p class="mt-4 text-gray-600 max-w-2xl mx-auto text-xl">
         Explore our latest articles on Data Center Infrastructure Management, Data Strategy, and
         Cybersecurity best practices.
       </p>
