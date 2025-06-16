@@ -10,6 +10,95 @@
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
           src="../assets/hero-bg.jpg"
+          alt="Khalid Safee"
+          class="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      <div>
+        <p class="text-3xl font-semibold font-garamond">Khalid Safee</p>
+        <p class="mb-6 text-gray-400">Chief Executive Officer</p>
+        <p>
+          Khalid Safee is qualified to manage, plan, and put into place IT network infrastructure,
+          optimization & footprint, datacenter rack refresh and systems integration, development,
+          maintenance, and services management. Khalid has experience dealing with IT infrastructure
+          in the datacenter, such as optimization and footprint and decommissioning IT equipment in
+          a DC (extensive usage of DCIM, CMDB, ITSM, ITIL, the Federal Office for Information
+          Security, common criteria (CC), protection profile, and security target (ST). Jira
+          Confluence, ServiceNow, Remedy, Carla, and FNT Asset Management software) and working with
+          the BMC Team from scratch, and Khalid is familiar with networks and systems from companies
+          like Cisco, HP, SAN, Oracle, Dell, and EMC.
+        </p>
+      </div>
+    </section>
+
+    <section class="my-20 md:flex md:items-center md:gap-12">
+      <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
+        <img
+          src="../assets/hero-bg.jpg"
+          alt="Dilip Saini Nagpur"
+          class="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      <div>
+        <p class="text-3xl font-semibold font-garamond">Dilip Saini Nagpur</p>
+        <p class="mb-6 text-gray-400">Chief Technology Officer</p>
+        <p>
+          Dilip Saini Nagpur is qualified to manage, plan, and put into place IT network
+          infrastructure, optimization & footprint, datacenter rack refresh and systems integration,
+          development, maintenance, and services management. Khalid has experience dealing with IT
+          infrastructure in the datacenter, such as optimization and footprint and decommissioning
+          IT equipment in a DC (extensive usage of DCIM, CMDB, ITSM, ITIL, the Federal Office for
+          Information Security, common criteria (CC), protection profile, and security target (ST).
+          Jira Confluence, ServiceNow, Remedy, Carla, and FNT Asset Management software) and working
+          with the BMC Team from scratch, and Khalid is familiar with networks and systems from
+          companies like Cisco, HP, SAN, Oracle, Dell, and EMC.
+        </p>
+      </div>
+    </section>
+
+    <section class="my-20 md:flex md:items-center md:gap-12">
+      <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
+        <img
+          src="../assets/hero-bg.jpg"
+          alt="Gaurav WittyMinds"
+          class="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      <div>
+        <p class="text-3xl font-semibold font-garamond">Gaurav WittyMinds</p>
+        <p class="mb-6 text-gray-400">Technical Operations Engineer</p>
+        <p>
+          Gaurav WittyMinds is a Cybersecurity Technician with experiences as a Certificate
+          Authority (CA) of the Secure Sockets Layer (SSL) for the PKI System (Public Key
+          Infrastructure). His experience also include Active Directory (AD), SCCM, MaaS360, and
+          Data Center work.
+        </p>
+      </div>
+    </section>
+
+    <section class="my-20 md:flex md:items-center md:gap-12">
+      <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
+        <img
+          src="../assets/hero-bg.jpg"
+          alt="Vikash Kumar"
+          class="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      <div>
+        <p class="text-3xl font-semibold font-garamond">Vikash Kumar</p>
+        <p class="mb-6 text-gray-400">Technical Logistics Coordinator</p>
+        <p>
+          Vikash Kumar is a Technician with experiences as a Certificate Authority (CA) of the
+          Secure Sockets Layer (SSL) for the PKI System (Public Key Infrastructure). His experience
+          also include Active Directory (AD), SCCM, MaaS360, and Data Center work.
+        </p>
+      </div>
+    </section>
+
+    <section class="my-20 md:flex md:items-center md:gap-12">
+      <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
+        <img
+          src="../assets/hero-bg.jpg"
           alt="Cassius Lawson"
           class="w-full h-full object-cover rounded-lg"
         />
@@ -29,15 +118,15 @@
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
           src="../assets/hero-bg.jpg"
-          alt="Khalid Safee"
+          alt="Seema Kumari"
           class="w-full h-full object-cover rounded-lg"
         />
       </div>
       <div>
-        <p class="text-3xl font-semibold font-garamond">Khalid</p>
-        <p class="mb-6 text-gray-400">Founder</p>
+        <p class="text-3xl font-semibold font-garamond">Seema Kumari</p>
+        <p class="mb-6 text-gray-400">Cybersecurity Analyst</p>
         <p>
-          Khalid Safee is qualified to manage, plan, and put into place IT network infrastructure,
+          Seema Kumari is qualified to manage, plan, and put into place IT network infrastructure,
           optimization & footprint, datacenter rack refresh and systems integration, development,
           maintenance, and services management. Khalid has experience dealing with IT infrastructure
           in the datacenter, such as optimization and footprint and decommissioning IT equipment in
@@ -64,8 +153,8 @@
           </p>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="text-center p-6 shadow-sm hover:shadow-lg transition-all duration-300">
+        <div class="gap-8">
+          <!-- <div class="text-center p-6 shadow-sm hover:shadow-lg transition-all duration-300">
             <div
               class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4"
             >
@@ -78,9 +167,9 @@
               We strive for excellence in every aspect of our work, delivering the highest quality
               solutions to our clients.
             </p>
-          </div>
+          </div> -->
 
-          <div class="text-center p-6 shadow-sm hover:shadow-lg transition-all duration-300">
+          <!-- <div class="text-center p-6 shadow-sm hover:shadow-lg transition-all duration-300">
             <div
               class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4"
             >
@@ -93,13 +182,22 @@
               We conduct our business with honesty, transparency, and a strong commitment to ethical
               practices.
             </p>
-          </div>
+          </div> -->
 
-          <div class="text-center p-6 shadow-sm hover:shadow-lg transition-all duration-300">
-            <div
+          <div
+            class="max-w-xl mx-auto text-center p-10 shadow-sm hover:shadow-lg transition-all duration-300 bg-gray-100 rounded-lg"
+          >
+            <!-- <div
               class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4"
             >
               <Zap class="w-8 h-8 text-blue-600" />
+            </div> -->
+            <div class="mx-auto w-32 h-32 mb-6">
+              <img
+                class="w-32 h-32 rounded-full object-cover group-hover:scale-105 transition-transform duration-300"
+                src="@/assets/ai-plug.jpeg"
+                alt="Data Center Infrastructure Management"
+              />
             </div>
             <h3 class="text-xl font-semibold text-gray-900 mb-2">Innovation</h3>
             <p
@@ -116,5 +214,5 @@
 </template>
 
 <script setup lang="ts">
-import { Users, Shield, Zap } from 'lucide-vue-next'
+// import { Users, Shield, Zap } from 'lucide-vue-next'
 </script>

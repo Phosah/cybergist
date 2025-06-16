@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import MainHeader from '@/components/MainHeader.vue'
-import SettingsIcon from '@/components/icons/SettingsIcon.vue'
-import { Server, Network } from 'lucide-vue-next'
+// import SettingsIcon from '@/components/icons/SettingsIcon.vue'
+// import { Server, Network } from 'lucide-vue-next'
 import AboutCompany from '@/components/AboutCompany.vue'
 </script>
 
 <template>
   <MainHeader />
 
-  <section class="max-w-7xl mx-auto my-24">
+  <!-- <section class="max-w-7xl mx-auto my-24">
     <p class="mb-4 text-3xl md:text-4xl font-garamond font-semibold">
       <span
         class="bg-gradient-to-r from-yellow-500 to-blue-900 bg-clip-text text-transparent md:text-black"
@@ -123,7 +123,7 @@ import AboutCompany from '@/components/AboutCompany.vue'
         </div>
       </ul>
     </div>
-  </section>
+  </section> -->
 
   <AboutCompany />
 </template>

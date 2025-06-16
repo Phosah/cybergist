@@ -1,5 +1,5 @@
 <template>
-  <section class="my-20 py-20">
+  <!-- <section class="my-20 py-20">
     <div class="max-w-3xl mx-auto flex flex-col gap-8">
       <div>
         <h3 class="mb-2 text-sm font-semibold text-blue-600">About our company</h3>
@@ -35,9 +35,9 @@
         </p>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="my-20 py-20 px-3 bg-gray-50">
+  <section class="mb-20 py-20 px-3 bg-gray-50">
     <div class="max-w-3xl mx-auto flex flex-col gap-8 text-center">
       <div>
         <h3 class="mb-2 text-sm font-semibold text-blue-600">Team</h3>
@@ -83,7 +83,7 @@
             />
           </div>
         </div>
-        <p class="text-xl font-semibold">Cassius Lawson</p>
+        <p class="text-xl font-semibold">Dilip Saini Nagpur</p>
         <p class="text-gray-500">Chief Technology Officer</p>
       </div>
     </div>
