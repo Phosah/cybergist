@@ -7,6 +7,7 @@ import ContactPage from '../pages/ContactPage.vue'
 import BlogDCIMPage from '../pages/BlogDCIMPage.vue'
 import BlogDataStrategyPage from '../pages/BlogDataStrategyPage.vue'
 import BlogCybersecurityPage from '../pages/BlogCybersecurityPage.vue'
+// import PartnersPage from '../pages/PartnersPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -63,6 +64,11 @@ const router = createRouter({
       path: '/affiliates',
       name: 'affiliates',
       component: () => import('../pages/AffiliatesPage.vue'),
+    },
+    {
+      path: '/partners',
+      name: 'partners',
+      component: () => import('../pages/PartnersPage.vue'),
     },
   ],
   scrollBehavior() {

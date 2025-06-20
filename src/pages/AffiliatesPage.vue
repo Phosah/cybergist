@@ -3,7 +3,7 @@
     <h1
       class="my-12 text-4xl font-garamond font-semibold bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent"
     >
-      Our Affiliates
+      Our Partners Together forever!
     </h1>
 
     <section class="my-20">

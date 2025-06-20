@@ -9,14 +9,14 @@
     <section class="my-20 md:flex md:items-center md:gap-12">
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
-          src="../assets/hero-bg.jpg"
+          src="../assets/khalid.jpeg"
           alt="Khalid Safee"
           class="w-full h-full object-cover rounded-lg"
         />
       </div>
       <div>
         <p class="text-3xl font-semibold font-garamond">Khalid Safee</p>
-        <p class="mb-6 text-gray-400">Chief Executive Officer</p>
+        <p class="mb-6 text-gray-400">Chief Executive Officer and Co-Founder</p>
         <p>
           Khalid Safee is qualified to manage, plan, and put into place IT network infrastructure,
           optimization & footprint, datacenter rack refresh and systems integration, development,
@@ -79,18 +79,19 @@
     <section class="my-20 md:flex md:items-center md:gap-12">
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
-          src="../assets/hero-bg.jpg"
+          src="../assets/vikash.jpeg"
           alt="Vikash Kumar"
-          class="w-full h-full object-cover rounded-lg"
+          class="w-full h-full object-contain rounded-lg"
         />
       </div>
       <div>
         <p class="text-3xl font-semibold font-garamond">Vikash Kumar</p>
-        <p class="mb-6 text-gray-400">Technical Logistics Coordinator</p>
+        <p class="mb-6 text-gray-400">Technical Logistics & Management</p>
         <p>
-          Vikash Kumar is a Technician with experiences as a Certificate Authority (CA) of the
-          Secure Sockets Layer (SSL) for the PKI System (Public Key Infrastructure). His experience
-          also include Active Directory (AD), SCCM, MaaS360, and Data Center work.
+          Vikash Kumar is a proven expertise in leading complex engineering projects, coordinating
+          cross-functional teams, and ensuring compliance with stringent safety and client
+          requirements. Adept at leveraging Agile methodologies to deliver high-quality solutions on
+          time and within budget.
         </p>
       </div>
     </section>
@@ -98,18 +99,18 @@
     <section class="my-20 md:flex md:items-center md:gap-12">
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
-          src="../assets/hero-bg.jpg"
+          src="../assets/cassius.jpeg"
           alt="Cassius Lawson"
-          class="w-full h-full object-cover rounded-lg"
+          class="w-full h-full object-contain rounded-lg"
         />
       </div>
       <div>
         <p class="text-3xl font-semibold font-garamond">Cassius Lawson</p>
         <p class="mb-6 text-gray-400">Founder</p>
         <p>
-          Cassius Lawson is a Cybersecurity Technician with experiences as a Certificate Authority
-          (CA) of the Secure Sockets Layer (SSL) for the PKI System (Public Key Infrastructure). His
-          experience also include Active Directory (AD), SCCM, MaaS360, and Data Center work.
+          Cassius Lawson is a Networking Technician with experiences as a Certificate Authority (CA)
+          of the Secure Sockets Layer (SSL) for the PKI System (Public Key Infrastructure). His
+          experience also include Active Directory (AD), SCCM, and MaaS360 work.
         </p>
       </div>
     </section>
@@ -117,24 +118,20 @@
     <section class="my-20 md:flex md:items-center md:gap-12">
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
-          src="../assets/hero-bg.jpg"
+          src="../assets/seema.jpeg"
           alt="Seema Kumari"
-          class="w-full h-full object-cover rounded-lg"
+          class="w-full h-full object-contain rounded-lg"
         />
       </div>
       <div>
         <p class="text-3xl font-semibold font-garamond">Seema Kumari</p>
         <p class="mb-6 text-gray-400">Cybersecurity Analyst</p>
         <p>
-          Seema Kumari is qualified to manage, plan, and put into place IT network infrastructure,
-          optimization & footprint, datacenter rack refresh and systems integration, development,
-          maintenance, and services management. Khalid has experience dealing with IT infrastructure
-          in the datacenter, such as optimization and footprint and decommissioning IT equipment in
-          a DC (extensive usage of DCIM, CMDB, ITSM, ITIL, the Federal Office for Information
-          Security, common criteria (CC), protection profile, and security target (ST). Jira
-          Confluence, ServiceNow, Remedy, Carla, and FNT Asset Management software) and working with
-          the BMC Team from scratch, and Khalid is familiar with networks and systems from companies
-          like Cisco, HP, SAN, Oracle, Dell, and EMC.
+          Seema Kumari is a proficient cybersecurity analyst with six years of experience in
+          safeguarding organizations against cyber threats. extensive experience in incident
+          response, endpoint protection, and security policy deployment. Strong problem-solving
+          skills, independent and goal-oriented, with high commitment, responsibility, teamwork, and
+          excellent communication and documentation abilities.
         </p>
       </div>
     </section>

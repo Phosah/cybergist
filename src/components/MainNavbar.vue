@@ -59,7 +59,7 @@ const menuItems = [
   { name: 'About', path: '/about' },
   { name: 'Services', path: '/services' },
   { name: 'Blogs', path: '/blogs' },
-  { name: 'Affiliates', path: '/affiliates' },
+  { name: 'Partners', path: '/partners' },
   { name: 'Contact Us', path: '/contact' },
 ]
 </script>
