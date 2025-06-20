@@ -2,12 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../pages/HomePage.vue'
 import ServicesPage from '../pages/ServicesPage.vue'
 import BlogsPage from '../pages/BlogsPage.vue'
-import CertificationsPage from '../pages/CertificationsPage.vue'
 import ContactPage from '../pages/ContactPage.vue'
 import BlogDCIMPage from '../pages/BlogDCIMPage.vue'
 import BlogDataStrategyPage from '../pages/BlogDataStrategyPage.vue'
 import BlogCybersecurityPage from '../pages/BlogCybersecurityPage.vue'
-// import PartnersPage from '../pages/PartnersPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -49,11 +47,6 @@ const router = createRouter({
       path: '/blogs/cybersecurity',
       name: 'blog-cybersecurity',
       component: BlogCybersecurityPage,
-    },
-    {
-      path: '/certifications',
-      name: 'certifications',
-      component: CertificationsPage,
     },
     {
       path: '/contact',
