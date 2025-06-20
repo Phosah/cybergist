@@ -59,7 +59,7 @@
     <section class="my-20 md:flex md:items-center md:gap-12">
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
-          src="../assets/hero-bg.jpg"
+          src="../assets/gaurev.jpeg"
           alt="Gaurav WittyMinds"
           class="w-full h-full object-cover rounded-lg"
         />

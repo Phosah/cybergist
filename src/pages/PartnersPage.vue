@@ -35,16 +35,13 @@
           <img src="../assets/nvidia-1.png" alt="Nvidia" />
         </div>
         <div class="flex items-center p-6 border border-gray-200 rounded-lg">
-          <img src="../assets/nvidia-2.png" alt="Nvidia" />
+          <img src="../assets/govdigital.png" alt="GOV" />
         </div>
         <div class="flex items-center p-6 border border-gray-200 rounded-lg">
-          <img src="../assets/nvidia-1.png" alt="Nvidia" />
+          <img src="../assets/liquidai.png" alt="Nvidia" />
         </div>
         <div class="flex items-center p-6 border border-gray-200 rounded-lg">
-          <img src="../assets/nvidia-2.png" alt="Nvidia" />
-        </div>
-        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
-          <img src="../assets/nvidia-1.png" alt="Nvidia" />
+          <img src="../assets/govdigital.png" alt="GOV" />
         </div>
         <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-2.png" alt="Nvidia" />
@@ -54,6 +51,9 @@
         </div>
         <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-2.png" alt="Nvidia" />
+        </div>
+        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
+          <img src="../assets/nvidia-1.png" alt="Nvidia" />
         </div>
       </div>
     </section>
