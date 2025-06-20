@@ -151,44 +151,9 @@
         </div>
 
         <div class="gap-8">
-          <!-- <div class="text-center p-6 shadow-sm hover:shadow-lg transition-all duration-300">
-            <div
-              class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4"
-            >
-              <Users class="w-8 h-8 text-blue-600" />
-            </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Excellence</h3>
-            <p
-              class="text-gray-600 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent hover:font-medium"
-            >
-              We strive for excellence in every aspect of our work, delivering the highest quality
-              solutions to our clients.
-            </p>
-          </div> -->
-
-          <!-- <div class="text-center p-6 shadow-sm hover:shadow-lg transition-all duration-300">
-            <div
-              class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4"
-            >
-              <Shield class="w-8 h-8 text-blue-600" />
-            </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Integrity</h3>
-            <p
-              class="text-gray-600 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent hover:font-medium"
-            >
-              We conduct our business with honesty, transparency, and a strong commitment to ethical
-              practices.
-            </p>
-          </div> -->
-
           <div
             class="max-w-xl mx-auto text-center p-10 shadow-sm hover:shadow-lg transition-all duration-300 bg-gray-100 rounded-lg"
           >
-            <!-- <div
-              class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4"
-            >
-              <Zap class="w-8 h-8 text-blue-600" />
-            </div> -->
             <div class="mx-auto w-32 h-32 mb-6">
               <img
                 class="w-32 h-32 rounded-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -210,6 +175,4 @@
   </div>
 </template>
 
-<script setup lang="ts">
-// import { Users, Shield, Zap } from 'lucide-vue-next'
-</script>
+<script setup lang="ts"></script>

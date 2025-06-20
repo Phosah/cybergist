@@ -25,6 +25,4 @@
   </div>
 </template>
 
-<script setup lang="ts">
-// Component logic will be added here
-</script>
+<script setup lang="ts"></script>

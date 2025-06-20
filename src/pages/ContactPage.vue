@@ -167,7 +167,6 @@ const form = ref({
 })
 
 const handleSubmit = () => {
-  // Handle form submission
   console.log('Form submitted:', form.value)
 }
 </script>
