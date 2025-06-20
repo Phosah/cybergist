@@ -66,7 +66,7 @@
       </div>
       <div>
         <p class="text-3xl font-semibold font-garamond">Gaurav WittyMinds</p>
-        <p class="mb-6 text-gray-400">Technical Operations Engineer</p>
+        <p class="mb-6 text-gray-400">Director and Technical Operations Engineer</p>
         <p>
           Gaurav WittyMinds is a Cybersecurity Technician with experiences as a Certificate
           Authority (CA) of the Secure Sockets Layer (SSL) for the PKI System (Public Key
