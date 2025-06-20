@@ -31,41 +31,29 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <!-- Affiliate cards will be added here -->
-        <div class="p-6 border border-gray-200 rounded-lg">
+        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-1.png" alt="Nvidia" />
         </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
+        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-2.png" alt="Nvidia" />
         </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
+        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-1.png" alt="Nvidia" />
         </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
-          <img src="../assets/nvidia-1.png" alt="Nvidia" />
-        </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
+        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-2.png" alt="Nvidia" />
         </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
+        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-1.png" alt="Nvidia" />
         </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
-          <img src="../assets/nvidia-1.png" alt="Nvidia" />
-        </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
+        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-2.png" alt="Nvidia" />
         </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
+        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-1.png" alt="Nvidia" />
         </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
-          <img src="../assets/nvidia-1.png" alt="Nvidia" />
-        </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
+        <div class="flex items-center p-6 border border-gray-200 rounded-lg">
           <img src="../assets/nvidia-2.png" alt="Nvidia" />
-        </div>
-        <div class="p-6 border border-gray-200 rounded-lg">
-          <img src="../assets/nvidia-1.png" alt="Nvidia" />
         </div>
       </div>
     </section>
