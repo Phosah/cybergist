@@ -1,11 +1,10 @@
 <template>
   <div class="max-w-7xl mx-auto">
-    <!-- Contact Form Section -->
     <section class="my-12 bg-white">
       <div class="max-w-7xl mx-auto">
         <div class="grid md:grid-cols-2 gap-12">
           <!-- Contact Information -->
-          <div class="space-y-8">
+          <div class="space-y-8" data-aos="fade-left" data-aos-duration="2000">
             <div>
               <h2
                 class="text-4xl font-garamond font-semibold bg-gradient-to-r from-blue-800 to-blue-900 bg-clip-text text-transparent mb-4"
@@ -62,7 +61,11 @@
           </div>
 
           <!-- Contact Form -->
-          <div class="bg-gray-50 rounded-2xl p-8 shadow-lg">
+          <div
+            class="bg-gray-50 rounded-2xl p-8 shadow-lg"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <form @submit.prevent="handleSubmit" class="space-y-6">
               <div>
                 <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
@@ -127,7 +130,7 @@
     </section>
 
     <!-- Map Section -->
-    <section class="py-20 bg-gray-50">
+    <section class="py-20 bg-gray-50" data-aos="fade-up" data-aos-duration="3500">
       <div class="max-w-7xl mx-auto px-4">
         <div class="text-center mb-16">
           <h2

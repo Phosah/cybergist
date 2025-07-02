@@ -18,6 +18,8 @@
               index % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row',
               'items-center gap-12',
             ]"
+            :data-aos="index === 0 ? 'fade-right' : index === 1 ? 'fade-left' : 'fade-up'"
+            :data-aos-duration="index === 0 ? '2000' : index === 1 ? '2500' : '3000'"
           >
             <div class="flex-1 space-y-6">
               <div
@@ -87,6 +89,8 @@
             v-for="(service, index) in additionalServices"
             :key="index"
             class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100"
+            :data-aos="index % 2 === 0 ? 'fade-up' : 'fade-down'"
+            :data-aos-duration="index % 2 === 0 ? '2000' : '2500'"
           >
             <div class="text-blue-600 mb-4">
               <component :is="service.icon" class="w-12 h-12" />
@@ -101,7 +105,11 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-r from-blue-800 to-blue-900">
+    <section
+      class="py-20 bg-gradient-to-r from-blue-800 to-blue-900"
+      data-aos="flip-left"
+      data-aos-duration="3000"
+    >
       <div class="max-w-7xl mx-auto px-4 text-center">
         <h2 class="text-4xl font-garamond font-semibold text-white mb-6">
           Ready to Transform Your Infrastructure?

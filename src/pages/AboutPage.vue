@@ -6,7 +6,11 @@
       About Us
     </h1>
 
-    <section class="my-20 md:flex md:items-center md:gap-12">
+    <section
+      class="my-20 md:flex md:items-center md:gap-12"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
           src="../assets/khalid.jpeg"
@@ -31,7 +35,11 @@
       </div>
     </section>
 
-    <section class="my-20 md:flex md:items-center md:gap-12">
+    <section
+      class="my-20 md:flex md:items-center md:gap-12"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
           src="../assets/hero-bg.jpg"
@@ -56,7 +64,11 @@
       </div>
     </section>
 
-    <section class="my-20 md:flex md:items-center md:gap-12">
+    <section
+      class="my-20 md:flex md:items-center md:gap-12"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
           src="../assets/gaurev.jpeg"
@@ -68,15 +80,22 @@
         <p class="text-3xl font-semibold font-garamond">Gaurav WittyMinds</p>
         <p class="mb-6 text-gray-400">Director and Technical Operations Engineer</p>
         <p>
-          Gaurav WittyMinds is a Cybersecurity Technician with experiences as a Certificate
-          Authority (CA) of the Secure Sockets Layer (SSL) for the PKI System (Public Key
-          Infrastructure). His experience also include Active Directory (AD), SCCM, MaaS360, and
-          Data Center work.
+          Gaurav WittyMinds has over a decade of experience in designing, developing, deploying, and
+          integrating end-to-end software solutions. His career spans leadership, technical
+          consultant, and corporate trainer – combining strategic vision with hands-on-expertise. He
+          is an effective communicator and motivational speaker, known for his ability to simplify
+          complex technical concepts and inspire teams to achieve impactful results. He has the
+          ability to build scalable solutions and drive innovation through collaboration, agility,
+          and a deep understanding of evolving technology landscapes
         </p>
       </div>
     </section>
 
-    <section class="my-20 md:flex md:items-center md:gap-12">
+    <section
+      class="my-20 md:flex md:items-center md:gap-12"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
           src="../assets/vikash.jpeg"
@@ -96,7 +115,11 @@
       </div>
     </section>
 
-    <section class="my-20 md:flex md:items-center md:gap-12">
+    <section
+      class="my-20 md:flex md:items-center md:gap-12"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
           src="../assets/cassius.jpeg"
@@ -115,7 +138,11 @@
       </div>
     </section>
 
-    <section class="my-20 md:flex md:items-center md:gap-12">
+    <section
+      class="my-20 md:flex md:items-center md:gap-12"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
           src="../assets/seema.jpeg"
@@ -136,7 +163,6 @@
       </div>
     </section>
 
-    <!-- Our Values -->
     <section class="py-20 bg-white">
       <div class="max-w-7xl mx-auto px-4">
         <div class="text-center mb-16">

@@ -9,9 +9,11 @@
     <header
       class="max-w-7xl mx-auto absolute inset-0 h-[90vh] py-2 md:flex md:items-center justify-between gap-20 z-10"
     >
-      <div class="flex-1 relative z-50">
+      <div class="flex-1 relative z-50" data-aos="fade-up" data-aos-duration="2000">
         <h1
-          class="mb-12 text-4xl md:text-6xl font-medium font-garamond bg-gradient-to-r from-yellow-500 to-blue-700 bg-clip-text text-transparent text-center"
+          class="mb-12 text-4xl md:text-9xl font-medium font-garamond bg-gradient-to-r from-yellow-500 to-blue-700 bg-clip-text text-transparent text-center"
+          data-aos="flip-down"
+          data-aos-duration="2000"
         >
           Welcome to CyberGist
         </h1>
@@ -24,21 +26,51 @@
             detect, mitigate, and neutralize threats in real-time. The system aims to:
           </p>
 
-          <p class="mb-6 text-black md:text-lg font-medium tracking-wide leading-relaxed">
-            - Protect sensitive network data <br />
-            - Secure access points and enforce Single Sign-On (SSO) protection <br />
-            - Detect and respond to abnormal network behavior <br />
-            - Secure the kernel virtual address space and memory <br />
-            - Deploy an AI that learns its environment and isolates threats for investigation
-          </p>
-          <!-- <p class="mb-6 text-black md:text-lg font-medium tracking-wide leading-relaxed">
-            <span class="text-blue-900 font-semibold">Our Vision:</span> To be the global leader in
-            transforming how organizations manage and secure their digital infrastructure. We
-            combine cutting-edge Data Center Infrastructure Management (DCIM), strategic data
-            solutions, and advanced cybersecurity to create resilient, future-ready enterprises. Our
-            mission is to empower businesses to unlock their data's full potential while ensuring
-            unmatched security and operational excellence.
-          </p> -->
+          <div class="text-black md:text-lg font-medium">
+            <p
+              class="mb-2 tracking-wide leading-relaxed"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              - Provide a visual representation of network topology and data flow
+            </p>
+            <p
+              class="mb-2 tracking-wide leading-relaxed"
+              data-aos="fade-left"
+              data-aos-duration="4000"
+            >
+              - Protect sensitive network data
+            </p>
+            <p
+              class="mb-2 tracking-wide leading-relaxed"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              - Secure access points and enforce Single Sign-On (SSO) protection
+            </p>
+            <p
+              class="mb-2 tracking-wide leading-relaxed"
+              data-aos="fade-left"
+              data-aos-duration="4000"
+            >
+              - Detect and respond to abnormal network behavior
+            </p>
+
+            <p
+              class="mb-2 tracking-wide leading-relaxed"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              - Secure the kernel virtual address space and memory
+            </p>
+            <p
+              class="mb-2 tracking-wide leading-relaxed"
+              data-aos="fade-left"
+              data-aos-duration="4000"
+            >
+              - Deploy an AI that learns its environment and isolates threats for investigation
+            </p>
+          </div>
         </div>
       </div>
 
