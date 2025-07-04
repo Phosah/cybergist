@@ -4,7 +4,7 @@
   >
     <RouterLink to="/"
       ><p
-        class="text-2xl font-bold font-garamond bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent"
+        class="text-2xl font-bold font-garamond bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent hover:border-yellow-500 hover:text-yellow-500 hover:font-medium transition-all"
       >
         CyberGist
       </p></RouterLink
