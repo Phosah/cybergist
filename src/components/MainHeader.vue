@@ -20,10 +20,10 @@
 
         <div>
           <p class="mb-6 text-black md:text-xl font-medium tracking-wide leading-relaxed">
-            CyberGist (also referred to as UNHACKABLE) is a startup-in-progress focused on building
-            a cybersecurity system capable of autonomous decision-making and protection. The concept
-            combines visual network modeling, machine intelligence, and kernel-level security to
-            detect, mitigate, and neutralize threats in real-time. The system aims to:
+            CyberGist is a startup-in-progress focused on building a cybersecurity system capable of
+            autonomous decision-making and protection. The concept combines visual network modeling,
+            machine intelligence, and kernel-level security to detect, mitigate, and neutralize
+            threats in real-time. The system aims to:
           </p>
 
           <div class="text-black md:text-lg font-medium">
