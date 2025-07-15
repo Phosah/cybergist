@@ -145,12 +145,13 @@
 
         <div class="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-xl">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104097.825191!2d9.097431!3d48.7758459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799db1c5941a695%3A0x97469e383ded480f!2sStuttgart%2C%20Germany!5e0!3m2!1sen!2s!4v1710861234567!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81860.34203989746!2d8.554164552777625!3d50.12118284671526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd096f477096c5%3A0x422435029b0c600!2sFrancfort-sur-le-Main%2C%20Allemagne!5e0!3m2!1sfr!2sng!4v1752582053161!5m2!1sfr!2sng"
             width="100%"
             height="450"
             style="border: 0"
             allowfullscreen
             loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

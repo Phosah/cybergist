@@ -100,7 +100,7 @@
         </RouterLink>
       </div>
 
-      <div data-aos="zoom-in-left" data-aos-duration="3000">
+      <div data-aos="zoom-in-right" data-aos-duration="2000">
         <RouterLink
           to="/blogs/data-strategy"
           class="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden"
