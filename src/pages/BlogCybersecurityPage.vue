@@ -1,10 +1,10 @@
 <template>
-  <div class="max-w-4xl mx-auto my-20">
-    <h1 class="text-4xl font-garamond mb-8">CYBERSECURITY</h1>
+  <div class="max-w-7xl mx-auto my-20">
+    <h1 class="text-4xl font-garamond mb-8 text-blue-800 font-semibold">CYBERSECURITY</h1>
     <div class="prose prose-lg">
-      <p class="mb-4">Fortifying Digital Infrastructure with Expertise in Cybersecurity</p>
+      <!-- <p class="mb-4">Fortifying Digital Infrastructure with Expertise in Cybersecurity</p> -->
 
-      <section class="mb-12">
+      <section class="mb-12 text-xl">
         Fortifying Digital Infrastructure with Expertise in Cybersecurity In today's increasingly
         digital world, security isn't just a feature—it's a necessity. Cyberattacks are a constant
         threat, with sophisticated techniques evolving by the day. Fortunately, professionals like

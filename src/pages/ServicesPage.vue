@@ -7,7 +7,7 @@
     </div>
 
     <!-- Main Services -->
-    <section class="py-10 md:py-20 bg-white">
+    <!-- <section class="py-10 md:py-20 bg-white">
       <div class="max-w-7xl mx-auto">
         <div class="space-y-16">
           <div
@@ -67,10 +67,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Additional Services -->
-    <section class="py-20 bg-gray-50">
+    <!-- <section class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4">
         <div class="text-center mb-16">
           <h2
@@ -102,10 +102,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- CTA Section -->
-    <section
+    <!-- <section
       class="py-20 bg-gradient-to-r from-blue-800 to-blue-900"
       data-aos="flip-left"
       data-aos-duration="3000"
@@ -124,6 +124,53 @@
           Contact Us Today
         </RouterLink>
       </div>
+    </section> -->
+
+    <section class="py-8">
+      <div>
+        <!-- <p>
+          Cybersecurity Services to Feature: A strong cybersecurity website should clearly showcase
+          these core offerings:
+        </p> -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
+          <div
+            class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition"
+            v-for="service in services"
+            :key="service.category"
+          >
+            <h4
+              class="text-lg font-semibold text-blue-700 mb-2 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-blue-900 hover:bg-clip-text hover:text-transparent hover:font-medium"
+            >
+              {{ service.category }}
+            </h4>
+            <p class="text-gray-700">{{ service.description }}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <p>
+        🧩 Website Features & Content Strategy To make the site both functional and persuasive:
+        Clear Navigation: Use a sticky menu with sections like Services, Solutions, Resources,
+        About, and Contact. Hero Section: Bold headline with a value proposition like “Protect Your
+        Business from Evolving Threats.” Call-to-Action (CTA): Prominent buttons like “Request a
+        Demo,” “Get a Free Assessment,” or “Start Trial.” Trust Signals: Display client logos,
+        certifications (ISO, SOC), and testimonials. Educational Content: Include blogs,
+        whitepapers, case studies, and webinars to show thought leadership. Live Chat or Chatbot:
+        For instant support and lead capture. Security Badges: SSL, GDPR-compliant, and other trust
+        indicators. Responsive Design: Optimized for mobile, tablet, and desktop. Fast Load Times:
+        Speed matters for both UX and SEO.
+      </p>
+
+      <p class="py-4">
+        🎨 Design Elements That Build Credibility Color Palette: Use blues, blacks, and whites to
+        convey trust, professionalism, and security. Typography: Clean, modern fonts like Roboto or
+        Open Sans for readability. Imagery: Use abstract tech visuals, secure lock icons, and team
+        photos to humanize the brand. Animations: Subtle scroll effects or radar-style graphics to
+        illustrate threat detection. 🔍 Examples for Inspiration You can explore these standout
+        cybersecurity websites for ideas: CyberOptik’s Top 20 Cybersecurity Website Designs Amply’s
+        Top 25 Cybersecurity Website Examples Tomorrow Web Design’s Cybersecurity Portfolio
+      </p> -->
     </section>
   </div>
 </template>
@@ -191,4 +238,71 @@ const additionalServices = [
     description: 'Continuous monitoring and optimization of your infrastructure.',
   },
 ]
+
+const services = [
+  {
+    category: 'Threat Detection & Response',
+    description: 'Real-time monitoring, incident response, and threat intelligence',
+  },
+  {
+    category: 'Network Security',
+    description: 'Firewalls, intrusion prevention systems (IPS), and secure VPNs',
+  },
+  {
+    category: 'Endpoint Protection',
+    description: 'Antivirus, anti-malware, and device control solutions',
+  },
+  {
+    category: 'Cloud Security',
+    description: 'Secure cloud configurations, access controls, and data encryption',
+  },
+  {
+    category: 'Compliance & Auditing',
+    description: 'GDPR, HIPAA, ISO 27001, SOC 2 compliance support',
+  },
+  {
+    category: 'Penetration Testing',
+    description: 'Ethical hacking to identify vulnerabilities',
+  },
+  {
+    category: 'Security Awareness Training',
+    description: 'Employee education on phishing, social engineering, and safe practices',
+  },
+  {
+    category: 'Identity & Access Management (IAM)',
+    description: 'Multi-factor authentication, role-based access control',
+  },
+  {
+    category: 'Data Loss Prevention (DLP)',
+    description: 'Tools to prevent unauthorized data sharing or leaks',
+  },
+]
 </script>
+
+<!-- <table class="table-auto w-full border-collapse border border-gray-300 my-4">
+  <thead>
+    <tr class="bg-gray-100">
+      <th class="border border-gray-300 px-4 py-2 text-left">Service Category</th>
+      <th class="border border-gray-300 px-4 py-2 text-left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="border border-gray-300 px-4 py-2">Threat Detection & Response</td>
+      <td class="border border-gray-300 px-4 py-2">
+        Real-time monitoring, incident response, and threat intelligence
+      </td>
+    </tr>
+    <tr>
+      <td class="border border-gray-300 px-4 py-2">Network Security</td>
+      <td class="border border-gray-300 px-4 py-2">
+        Firewalls, intrusion prevention systems (IPS), and secure VPNs
+      </td>
+    </tr>
+    <tr>
+      <td class="border border-gray-300 px-4 py-2">Endpoint Protection</td>
+      <td class="border border-gray-300 px-4 py-2">
+        Antivirus, anti-malware, and device control solutions
+      </td>
+    </tr>
+</table> -->

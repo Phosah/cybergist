@@ -18,6 +18,74 @@
           Welcome to CyberGist
         </h1>
 
+        <!-- <div class="relative flex justify-center items-center h-[200px] md:h-[400px]">
+          <video
+            class="absolute inset-0 w-full h-full object-cover"
+            src="../assets/cybergist-video.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+          ></video>
+          <h1
+            class="relative z-10 text-4xl md:text-9xl font-medium font-garamond text-center video-text-clip"
+            data-aos="flip-down"
+            data-aos-duration="2000"
+          >
+            Welcome to CyberGist
+          </h1>
+        </div> -->
+
+        <!-- <div class="flex justify-center items-center h-[200px] md:h-[400px]">
+          <svg viewBox="0 0 1200 300" class="w-full h-full">
+            <defs>
+              <mask id="text-mask" x="0" y="0" width="100%" height="100%">
+                <rect x="0" y="0" width="1200" height="300" fill="white" />
+                <text
+                  x="50%"
+                  y="50%"
+                  text-anchor="middle"
+                  alignment-baseline="middle"
+                  font-size="120"
+                  font-family="Garamond, serif"
+                  font-weight="bold"
+                  fill="black"
+                  dy=".35em"
+                >
+                  Welcome to CyberGist
+                </text>
+              </mask>
+            </defs>
+            <foreignObject x="0" y="0" width="1200" height="300" mask="url(#text-mask)">
+              <video
+                src="../assets/cybergist-video.mp4"
+                autoplay
+                loop
+                muted
+                playsinline
+                style="width: 100%; height: 100%; object-fit: cover"
+              ></video>
+            </foreignObject>
+          </svg>
+        </div> -->
+
+        <!-- <div class="relative flex justify-center items-center h-[100px] overflow-hidden">
+          <video
+            class="absolute inset-0 w-full h-full object-cover"
+            src="../assets/cybergist-video.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+          ></video>
+          <h1
+            class="relative z-10 text-6xl font-bold text-white"
+            style="mix-blend-mode: screen; color: white; font-family: Garamond, serif"
+          >
+            Welcome to CyberGist
+          </h1>
+        </div> -->
+
         <div>
           <p class="mb-6 text-black md:text-xl font-medium tracking-wide leading-relaxed">
             CyberGist is a startup-in-progress focused on building a cybersecurity system capable of
@@ -92,3 +160,12 @@
     </header>
   </main>
 </template>
+
+<style scoped>
+.video-text-clip {
+  color: transparent;
+  background: none;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+</style>

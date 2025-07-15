@@ -1,9 +1,9 @@
 <template>
-  <div class="max-w-4xl mx-auto my-20">
-    <h1 class="text-4xl font-garamond mb-8">Data Strategy</h1>
+  <div class="max-w-7xl mx-auto my-20">
+    <h1 class="text-4xl font-garamond mb-8 text-blue-800 font-semibold">Data Strategy</h1>
     <div class="prose prose-lg">
-      <p class="mb-4">The Key Role of Data Governance in Digital Transformation</p>
-      <section class="mb-12">
+      <!-- <p class="mb-4">The Key Role of Data Governance in Digital Transformation</p> -->
+      <section class="mb-12 text-xl">
         The Key Role of Data Governance in Digital Transformation In today's fast-paced, data-driven
         business environment, digital transformation is essential for organizations to remain
         competitive. Companies are continuously investing in new technologies to improve efficiency,

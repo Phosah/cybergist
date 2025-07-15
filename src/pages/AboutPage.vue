@@ -13,24 +13,91 @@
     >
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
+          src="../assets/cassius.jpeg"
+          alt="Cassius Lawson"
+          class="w-full h-full object-contain rounded-lg"
+        />
+      </div>
+      <div>
+        <p class="text-4xl font-bold font-garamond">Cassius Lawson</p>
+        <p class="mb-6 text-gray-400 text-2xl text-2xl">Founder & Chairman</p>
+        <p>
+          Cassius Lawson is a seasoned cybersecurity and networking professional with deep expertise
+          in Public Key Infrastructure (PKI), having served as a Certificate Authority (CA) for
+          Secure Sockets Layer (SSL) systems. His technical background includes hands-on experience
+          with Active Directory (AD), SCCM, and MaaS360, supporting secure and scalable enterprise
+          environments.
+        </p>
+
+        <p class="py-2">
+          As the founder of CyberGist, Cassius is driven by a clear mission: to simplify
+          cybersecurity for individuals and organizations navigating complex threats and security
+          gaps. With a practical, solutions-focused mindset, he is committed to bringing clarity,
+          confidence, and peace of mind to those facing today’s cybersecurity challenges. Cassius
+          combines technical precision with an approachable, empowering style that makes security
+          more accessible and effective for everyone.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="my-20 md:flex md:items-center md:gap-12"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
+      <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
+        <img
           src="../assets/khalid.jpeg"
           alt="Khalid Safee"
           class="w-full h-full object-cover rounded-lg"
         />
       </div>
       <div>
-        <p class="text-3xl font-semibold font-garamond">Khalid Safee</p>
-        <p class="mb-6 text-gray-400">Chief Executive Officer and Co-Founder</p>
+        <p class="text-4xl font-bold font-garamond">Khalid Safee</p>
+        <p class="mb-6 text-gray-400 text-2xl text-2xl">Chief Executive Officer and Co-Founder</p>
         <p>
-          Khalid Safee is qualified to manage, plan, and put into place IT network infrastructure,
-          optimization & footprint, datacenter rack refresh and systems integration, development,
-          maintenance, and services management. Khalid has experience dealing with IT infrastructure
-          in the datacenter, such as optimization and footprint and decommissioning IT equipment in
-          a DC (extensive usage of DCIM, CMDB, ITSM, ITIL, the Federal Office for Information
-          Security, common criteria (CC), protection profile, and security target (ST). Jira
-          Confluence, ServiceNow, Remedy, Carla, and FNT Asset Management software) and working with
-          the BMC Team from scratch, and Khalid is familiar with networks and systems from companies
-          like Cisco, HP, SAN, Oracle, Dell, and EMC.
+          Khalid Safee, CEO and Co-Founder of Safee Technology, brings nearly two decades of global
+          IT infrastructure and data center experience across Asia, the Middle East, and Europe. He
+          has held roles with leading organizations including Louis Berger, USAID, The Shaw Group,
+          Heinz, Operational Dynamics – CN-CN (US Army – NATO Belgium), DXC/HPE, Cisco, HPE/HPI,
+          Snap-On Vodafone, Cognizant (Cargill), TikTok/Meta/Facebook, GfK, Dematic, Interxion,
+          Equinix Data Centers, and within the nuclear sector. Khalid specializes in planning,
+          deploying, and managing large-scale IT network infrastructures, data center optimization,
+          systems integration, and lifecycle management. His expertise spans rack refresh projects,
+          IT asset decommissioning, and end-to-end service management using tools like DCIM, CMDB,
+          ITSM, ITIL, Jira, Confluence, ServiceNow, Remedy, Carla, and FNT. He has worked
+          extensively with BMC teams and is skilled in technologies from Cisco, HP, SAN, Oracle,
+          Dell, and EMC. With a strong foundation in compliance and security including frameworks
+          like the Federal Office for Information Security, Common Criteria (CC), Protection
+          Profiles (PP), and Security Targets Khalid Safee is uniquely qualified to lead complex IT
+          infrastructure initiatives in highly regulated and mission-critical environments.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="my-20 md:flex md:items-center md:gap-12"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
+      <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
+        <img
+          src="../assets/gaurev.jpeg"
+          alt="Gaurav WittyMinds"
+          class="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      <div>
+        <p class="text-4xl font-bold font-garamond">Gaurav WittyMinds</p>
+        <p class="mb-6 text-gray-400 text-2xl">Director and Technical Operations Engineer</p>
+        <p>
+          Gaurav WittyMinds has over a decade of experience in designing, developing, deploying, and
+          integrating end-to-end software solutions. His career spans leadership, technical
+          consultant, and corporate trainer – combining strategic vision with hands-on-expertise. He
+          is an effective communicator and motivational speaker, known for his ability to simplify
+          complex technical concepts and inspire teams to achieve impactful results. He has the
+          ability to build scalable solutions and drive innovation through collaboration, agility,
+          and a deep understanding of evolving technology landscapes
         </p>
       </div>
     </section>
@@ -48,8 +115,8 @@
         />
       </div>
       <div>
-        <p class="text-3xl font-semibold font-garamond">Dilip Saini Nagpur</p>
-        <p class="mb-6 text-gray-400">Chief Technology Officer</p>
+        <p class="text-4xl font-bold font-garamond">Dilip Saini Nagpur</p>
+        <p class="mb-6 text-gray-400 text-2xl">Chief Technology Officer</p>
         <p>
           Dilip Saini Nagpur is qualified to manage, plan, and put into place IT network
           infrastructure, optimization & footprint, datacenter rack refresh and systems integration,
@@ -71,69 +138,19 @@
     >
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
-          src="../assets/gaurev.jpeg"
-          alt="Gaurav WittyMinds"
-          class="w-full h-full object-cover rounded-lg"
-        />
-      </div>
-      <div>
-        <p class="text-3xl font-semibold font-garamond">Gaurav WittyMinds</p>
-        <p class="mb-6 text-gray-400">Director and Technical Operations Engineer</p>
-        <p>
-          Gaurav WittyMinds has over a decade of experience in designing, developing, deploying, and
-          integrating end-to-end software solutions. His career spans leadership, technical
-          consultant, and corporate trainer – combining strategic vision with hands-on-expertise. He
-          is an effective communicator and motivational speaker, known for his ability to simplify
-          complex technical concepts and inspire teams to achieve impactful results. He has the
-          ability to build scalable solutions and drive innovation through collaboration, agility,
-          and a deep understanding of evolving technology landscapes
-        </p>
-      </div>
-    </section>
-
-    <section
-      class="my-20 md:flex md:items-center md:gap-12"
-      data-aos="fade-up"
-      data-aos-duration="3000"
-    >
-      <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
-        <img
           src="../assets/vikash.jpeg"
           alt="Vikash Kumar"
           class="w-full h-full object-contain rounded-lg"
         />
       </div>
       <div>
-        <p class="text-3xl font-semibold font-garamond">Vikash Kumar</p>
-        <p class="mb-6 text-gray-400">Technical Logistics & Management</p>
+        <p class="text-4xl font-bold font-garamond">Vikash Kumar</p>
+        <p class="mb-6 text-gray-400 text-2xl">Technical Logistics & Management</p>
         <p>
           Vikash Kumar is a proven expertise in leading complex engineering projects, coordinating
           cross-functional teams, and ensuring compliance with stringent safety and client
           requirements. Adept at leveraging Agile methodologies to deliver high-quality solutions on
           time and within budget.
-        </p>
-      </div>
-    </section>
-
-    <section
-      class="my-20 md:flex md:items-center md:gap-12"
-      data-aos="fade-up"
-      data-aos-duration="3000"
-    >
-      <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
-        <img
-          src="../assets/cassius.jpeg"
-          alt="Cassius Lawson"
-          class="w-full h-full object-contain rounded-lg"
-        />
-      </div>
-      <div>
-        <p class="text-3xl font-semibold font-garamond">Cassius Lawson</p>
-        <p class="mb-6 text-gray-400">Founder</p>
-        <p>
-          Cassius Lawson is a Networking Technician with experiences as a Certificate Authority (CA)
-          of the Secure Sockets Layer (SSL) for the PKI System (Public Key Infrastructure). His
-          experience also include Active Directory (AD), SCCM, and MaaS360 work.
         </p>
       </div>
     </section>
@@ -151,8 +168,8 @@
         />
       </div>
       <div>
-        <p class="text-3xl font-semibold font-garamond">Seema Kumari</p>
-        <p class="mb-6 text-gray-400">Cybersecurity Analyst</p>
+        <p class="text-4xl font-bold font-garamond">Seema Kumari</p>
+        <p class="mb-6 text-gray-400 text-2xl">Cybersecurity Analyst</p>
         <p>
           Seema Kumari is a proficient cybersecurity analyst with six years of experience in
           safeguarding organizations against cyber threats. extensive experience in incident
