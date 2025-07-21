@@ -20,8 +20,8 @@
                   font-family="Garamond, serif"
                   font-weight="500"
                   fill="white"
-                  data-aos="flip-up"
-                  data-aos-duration="2000"
+                  <!-- data-aos="flip-up" -->
+                  data-aos-duration="1000"
                 >
                   Welcome to CyberGist
                 </text>
@@ -43,7 +43,7 @@
 
         <div>
           <p class="mb-6 text-black md:text-xl font-medium tracking-wide leading-relaxed">
-            CyberGist is a startup-in-progress focused on building a cybersecurity system capable of
+            CyberGist is a startup-in-progress focused on building a cybersecurity model capable of
             autonomous decision-making and protection. The concept combines visual network modeling,
             machine intelligence, and kernel-level security to detect, mitigate, and neutralize
             threats in real-time. The system aims to:

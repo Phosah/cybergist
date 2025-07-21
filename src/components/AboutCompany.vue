@@ -2,7 +2,6 @@
   <section class="mb-20 py-20 px-3 bg-gray-50">
     <div class="max-w-3xl mx-auto flex flex-col gap-8 text-center">
       <div>
-        <!-- <h3 class="mb-2 text-sm font-semibold text-blue-600">Team</h3> -->
         <h2
           class="text-4xl font-garamond font-semibold bg-gradient-to-r from-yellow-500 to-blue-900 bg-clip-text text-transparent"
         >
