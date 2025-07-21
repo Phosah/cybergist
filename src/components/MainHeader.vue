@@ -20,7 +20,7 @@
                   font-family="Garamond, serif"
                   font-weight="500"
                   fill="white"
-                  <!-- data-aos="flip-up" -->
+                  data-aos="flip-up"
                   data-aos-duration="1000"
                 >
                   Welcome to CyberGist
