@@ -33,15 +33,6 @@
           challenges. Cassius combines technical precision with an approachable, empowering style
           that makes security more accessible and effective for everyone.
         </p>
-
-        <p class="py-2">
-          As the founder of CyberGist, Cassius is driven by a clear mission: to simplify
-          cybersecurity for individuals and organizations navigating complex threats and security
-          gaps. With a practical, solutions-focused mindset, he is committed to bringing clarity,
-          confidence, and peace of mind to those facing today’s cybersecurity challenges. Cassius
-          combines technical precision with an approachable, empowering style that makes security
-          more accessible and effective for everyone.
-        </p>
       </div>
     </section>
 
