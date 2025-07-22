@@ -22,11 +22,16 @@
         <p class="text-4xl font-bold font-garamond">Cassius Lawson</p>
         <p class="mb-6 text-gray-400 text-2xl text-2xl">Founder & Chairman</p>
         <p>
-          Cassius Lawson is a seasoned cybersecurity and networking professional with deep expertise
-          in Public Key Infrastructure (PKI), having served as a Certificate Authority (CA) for
-          Secure Sockets Layer (SSL) systems. His technical background includes hands-on experience
-          with Active Directory (AD), SCCM, and MaaS360, supporting secure and scalable enterprise
-          environments.
+          Cassius Lawson is a seasoned system administrator and networking professional with deep
+          expertise in Public Key Infrastructure (PKI), having served as a Certificate Authority
+          (CA) for Secure Sockets Layer (SSL) systems. His technical background includes hands-on
+          experience with Active Directory (AD), SCCM, and MaaS360, supporting secure and scalable
+          enterprise environments. As the founder of CyberGist, Cassius is driven by a clear
+          mission: to simplify cybersecurity for individuals and organizations navigating complex
+          threats and security gaps. With a practical, solutions-focused mindset, he is committed to
+          bringing clarity, confidence, and peace of mind to those facing today’s cybersecurity
+          challenges. Cassius combines technical precision with an approachable, empowering style
+          that makes security more accessible and effective for everyone.
         </p>
 
         <p class="py-2">
