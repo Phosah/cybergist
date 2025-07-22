@@ -52,7 +52,7 @@
     <div class="flex justify-center mt-12">
       <RouterLink to="/about">
         <div
-          class="inline-block px-8 py-4 bg-yellow-400 text-white rounded-lg hover:bg-yellow-500 transition-colors cursor-pointer"
+          class="inline-block px-8 py-4 bg-yellow-500 text-white font-bold rounded-lg hover:bg-yellow-600 transition-colors cursor-pointer"
         >
           View Team
         </div>
