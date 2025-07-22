@@ -52,25 +52,33 @@
           class="w-full h-full object-cover rounded-lg"
         />
       </div>
-      <div>
+      <div class="text-sm">
         <p class="text-4xl font-bold font-garamond">Khalid Safee</p>
-        <p class="mb-6 text-gray-400 text-2xl text-2xl">Chief Executive Officer and Co-Founder</p>
-        <p>
-          Khalid Safee, CEO and Co-Founder of Safee Technology, brings nearly two decades of global
-          IT infrastructure and data center experience across Asia, the Middle East, and Europe. He
-          has held roles with leading organizations including Louis Berger, USAID, The Shaw Group,
-          Heinz, Operational Dynamics – CN-CN (US Army – NATO Belgium), DXC/HPE, Cisco, HPE/HPI,
-          Snap-On Vodafone, Cognizant (Cargill), TikTok/Meta/Facebook, GfK, Dematic, Interxion,
-          Equinix Data Centers, and within the nuclear sector. Khalid specializes in planning,
-          deploying, and managing large-scale IT network infrastructures, data center optimization,
-          systems integration, and lifecycle management. His expertise spans rack refresh projects,
-          IT asset decommissioning, and end-to-end service management using tools like DCIM, CMDB,
-          ITSM, ITIL, Jira, Confluence, ServiceNow, Remedy, Carla, and FNT. He has worked
-          extensively with BMC teams and is skilled in technologies from Cisco, HP, SAN, Oracle,
-          Dell, and EMC. With a strong foundation in compliance and security including frameworks
-          like the Federal Office for Information Security, Common Criteria (CC), Protection
-          Profiles (PP), and Security Targets Khalid Safee is uniquely qualified to lead complex IT
-          infrastructure initiatives in highly regulated and mission-critical environments.
+        <p class="mb-6 text-gray-400 text-2xl text-2xl">CEO & Founder</p>
+        <p class="py-1">
+          Khalid is a seasoned IT infrastructure and cybersecurity leader with nearly 22 years of
+          experience across Asia, the Middle East, and Europe. As CEO and Founder, he leads
+          innovation at the intersection of secure infrastructure, cloud transformation, and
+          zero-trust architecture.
+        </p>
+        <p class="py-1">
+          He has held strategic technical and operational roles with global organizations including
+          the US Army/NATO (Operational Dynamics), DXC/HPE, Cisco, Cognizant (Cargill), Meta,
+          TikTok, Vodafone, Heinz, USAID, and Equinix Data Centers. His core expertise includes:<br />
+        </p>
+
+        <p class="py-1">
+          Enterprise network architecture & data center modernization Secure IT asset lifecycle
+          management and decommissioning Cybersecurity compliance (BSI, Common Criteria, PP, ST)
+          ITSM, CMDB, and incident response workflows (ServiceNow, Jira, Remedy, Confluence)
+          Implementation of DCIM tools, rack refresh projects, and critical systems integration
+          Collaboration with BMC and SOC teams for end-to-end IT security alignment
+        </p>
+        <p class="py-1">
+          Khalid brings deep experience with Cisco, HP, Dell, EMC, Oracle, and SAN solutions,
+          ensuring resilient infrastructure in highly regulated and mission-critical environments.
+          He currently focuses on integrating post-quantum cryptography, AI-driven threat defense,
+          and zero-trust frameworks into enterprise and government systems.
         </p>
       </div>
     </section>
