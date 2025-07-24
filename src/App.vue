@@ -24,7 +24,7 @@ onMounted(() => {
   // Simulate loading time
   setTimeout(() => {
     isLoading.value = false
-  }, 1000)
+  }, 500)
 })
 
 onUnmounted(() => {

@@ -8,11 +8,6 @@
 
     <section class="py-8">
       <div>
-        <!-- <p>
-          Cybersecurity Services to Feature: A strong cybersecurity website should clearly showcase
-          these core offerings:
-        </p> -->
-
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
           <div
             class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition"
