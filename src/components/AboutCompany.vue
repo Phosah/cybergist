@@ -38,7 +38,7 @@
         <div class="mb-6 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
           <div class="w-full h-[15rem] md:h-[15rem] shrink-0">
             <img
-              src="../assets/cassius-1.jpeg"
+              src="../assets/cassius-2.jpeg"
               alt="Cassius Lawson"
               class="w-full h-full object-cover rounded-lg object-center"
             />
