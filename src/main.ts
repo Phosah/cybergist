@@ -15,3 +15,30 @@ AOS.init({
   once: true, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
 })
+
+//  // Browser detection
+//  function isSafari() {
+//   return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+// }
+
+// function isChrome() {
+//   return /chrome/i.test(navigator.userAgent) && /google inc/i.test(navigator.vendor);
+// }
+
+// function isFirefox() {
+//   return /firefox/i.test(navigator.userAgent);
+// }
+
+// // Show appropriate version based on browser
+// document.addEventListener('DOMContentLoaded', function() {
+//   const safariVersion = document.querySelector('.safari-version');
+//   const chromeVersion = document.querySelector('.chrome-version');
+
+//   if (isSafari()) {
+//       console.log('Safari detected - showing gradient text');
+//       safariVersion.style.display = 'block';
+//   } else {
+//       console.log('Non-Safari browser detected - showing video text');
+//       chromeVersion.style.display = 'block';
+//   }
+// });
