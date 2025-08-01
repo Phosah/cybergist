@@ -1,12 +1,18 @@
 <template>
   <main class="h-[90vh] bg-gradient-to-br from-white via-white to-blue-50 relative">
-    <div class="absolute inset-0 z-0"></div>
-
     <header
       class="max-w-7xl mx-auto absolute inset-0 h-[90vh] py-2 md:flex md:items-center justify-between gap-20 z-10"
     >
       <div class="flex-1 relative z-50">
-        <div class="video-text-mask">
+        <!-- Safari: show gradient text -->
+        <div v-if="isSafari" class="safari-text-container">
+          <h1 class="safari-text" data-aos="flip-up" data-aos-duration="1000">
+            Welcome to CyberGist
+          </h1>
+        </div>
+
+        <!-- Chrome/Firefox/Edge: your original video-mask -->
+        <div v-else class="video-text-mask">
           <svg width="100%" height="200" viewBox="0 0 1000 200">
             <defs>
               <mask id="text-mask">
@@ -27,15 +33,8 @@
                 </text>
               </mask>
             </defs>
-
             <foreignObject width="100%" height="100%" mask="url(#text-mask)">
-              <video
-                autoplay
-                loop
-                muted
-                playsinline
-                style="width: 100%; height: 100%; object-fit: cover"
-              >
+              <video autoplay loop muted playsinline class="object-cover w-full h-full">
                 <source src="../assets/cybergist-video.mp4" type="video/mp4" />
               </video>
             </foreignObject>
@@ -101,32 +100,57 @@
   </main>
 </template>
 
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
+
+const isSafari = ref(false)
+
+onMounted(() => {
+  // Exclude other iOS browsers (CriOS, FxiOS) as well
+  const ua = navigator.userAgent
+  const safariRegex = /^((?!chrome|crios|fxios|android).)*safari/i
+  isSafari.value = safariRegex.test(ua)
+})
+</script>
+
 <style scoped>
-.video-text-container {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
+/* Safari fallback: gradient-filled text */
+.safari-text-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.video-text {
-  font-size: clamp(3rem, 12vw, 8rem);
+.safari-text {
+  font-size: clamp(3rem, 12vw, 6rem);
   font-weight: 500;
+  font-family: 'Garamond', serif;
+  background: linear-gradient(to right, #d97706, #fbbf24, #3b82f6);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
-  position: relative;
-  z-index: 2;
+  animation: gradientShift 4s ease-in-out infinite;
 }
 
-.video-text::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('../assets/cybergist-video.mp4') center/cover;
-  -webkit-background-clip: text;
-  background-clip: text;
-  z-index: -1;
+@keyframes gradientShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Optional: ensure your video-text-mask sits where your h1 would */
+.video-text-mask {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
