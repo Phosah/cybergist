@@ -13,9 +13,9 @@
     >
       <div class="w-full h-[20rem] md:w-[20rem] md:h-[20rem] shrink-0 mb-2">
         <img
-          src="../assets/cassius.jpeg"
+          src="../assets/cassius-1.jpeg"
           alt="Cassius Lawson"
-          class="w-full h-full object-contain rounded-lg"
+          class="w-full h-full object-cover rounded-lg"
         />
       </div>
       <div>

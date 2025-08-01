@@ -106,10 +106,13 @@ import { ref, onMounted } from 'vue'
 const isSafari = ref(false)
 
 onMounted(() => {
-  // Exclude other iOS browsers (CriOS, FxiOS) as well
   const ua = navigator.userAgent
-  const safariRegex = /^((?!chrome|crios|fxios|android).)*safari/i
-  isSafari.value = safariRegex.test(ua)
+  const isActuallySafari = /^((?!chrome|crios|fxios|android).)*safari/i.test(ua)
+  const isIOS = /iPhone|iPad|iPod/.test(ua)
+  const isMobileScreen = window.innerWidth <= 768
+
+  // Show Safari version if: it's Safari OR (iOS on small screen)
+  isSafari.value = isActuallySafari || (isIOS && isMobileScreen)
 })
 </script>
 
@@ -123,7 +126,7 @@ onMounted(() => {
 }
 
 .safari-text {
-  font-size: clamp(3rem, 12vw, 6rem);
+  font-size: clamp(1.75rem, 12vw, 6rem);
   font-weight: 500;
   font-family: 'Garamond', serif;
   background: linear-gradient(to right, #d97706, #fbbf24, #3b82f6);
